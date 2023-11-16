@@ -64,7 +64,7 @@ const updateitem = (id)=>{
      <div className='child-div'>
       <figure>
         <img src='notes.jpeg' alt='todologo'/>
-        <figcaption>Add you list here</figcaption> 
+        <figcaption>Add your TODO here</figcaption> 
       </figure>
       <div className='addItems'>
       <input type="text" placeholder='✍ Add items' className="form-control"
