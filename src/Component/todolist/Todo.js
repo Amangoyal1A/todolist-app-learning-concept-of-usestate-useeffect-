@@ -14,7 +14,7 @@ function addItem(){
   if(inputData==="")
   {
     alert("plz fill the data")
-  }else if(inputData && toggleplusbtn==true ) {
+  }else if(inputData && toggleplusbtn===true ) {
     setItems(items.map((curr) => {
         if(itemid === curr.id) {
             return {...curr, name: inputData};
